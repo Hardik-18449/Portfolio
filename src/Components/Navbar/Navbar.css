@@ -82,6 +82,9 @@
   .navbar {
     margin: 20px 40px;
   }
+  .nav-menu li img {
+    display: none;
+  }
 
   .net-connect {
     display: none;
@@ -90,16 +93,17 @@
   .nav-mob-open {
     display: block;
     position: fixed;
+  height: 32px;
     right: 30px;
-    top: 20px;
+    top: 89px;
   }
 
   .nav-mob-close {
     display: block;
     position: relative;
-    top: 30px;
-    left: 280px;
-    width: 30px;
+    top: 25px;
+    left: 250px;
+    width: 25px;
   }
 
   .nav-menu {
@@ -133,11 +137,12 @@
 
   .nav-mob-open {
     right: 20px;
-    top: 20px;
+    top: 89px;
   }
 
   .nav-mob-close {
     left: 240px;
+    top: -10px;
   }
 
   .nav-menu {

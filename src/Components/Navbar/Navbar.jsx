@@ -3,7 +3,7 @@ import './Navbar.css';
 import Logo1 from '../../assets/Logo1.png';
 import underline from '../../assets/underline.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Toggle from '../../assets/Toggle.png';
+import Menu from '../../assets/menu.png';
 import close from '../../assets/close.png';
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const closeMenu = () => {
   return (
     <div className='navbar'>
  <img src={Logo1} alt="Logo" />
-      <div className='toggle'>   <img src={Toggle} onClick={openMenu} alt="" className='nav-mob-open' /></div>
+      <div className='toggle'>   <img src={Menu} onClick={openMenu} alt="" className='nav-mob-open' /></div>
    
       <ul ref={menuRef}className='nav-menu'>
         <img src= {close} onClick={closeMenu}  alt="" className="nav-mob-close" />
