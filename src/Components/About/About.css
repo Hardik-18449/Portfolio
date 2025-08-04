@@ -226,10 +226,10 @@
         height: 5px;
     }
 .about_achievements{
-    gap: 12px;
+    gap: 23px;
 }
     .about-achievement h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .about-achievement p {
